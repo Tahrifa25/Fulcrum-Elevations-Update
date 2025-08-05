@@ -1,0 +1,10 @@
+[project]
+name = "pole-updates"
+version = "0.1.0"
+description = "Fetch poles from Fulcrum, get elevation from USGS, and update records"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "requests",
+    "python-dotenv"
+    ]
